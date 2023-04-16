@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	log.Info("bot start")
 	if err := godotenv.Load(); err != nil {
 		log.Fatalf("error initializing env variable: %s", err.Error())
 	}
